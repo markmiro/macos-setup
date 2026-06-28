@@ -55,6 +55,8 @@ Some macOS settings are intentionally not scripted because they are tied to acco
 
 See `manual-apps.md` for installed applications that were not present in the local Homebrew cask list.
 
+See `manual-files.md` for project directories (`~/proj`, `~/github`), dotfiles, SSH keys, and other local data to migrate.
+
 ## Re-Audit This Mac
 
 Run this when you make meaningful setup changes and want a snapshot:

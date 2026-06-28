@@ -14,19 +14,15 @@ Many may still have casks, but they were not installed by Homebrew on this Mac.
 ## Browsers and Web
 
 - AdGuard for Safari
-- Brave Browser
 - ChatGPT Atlas
 - Comet
 - Firefox
 - Google Chrome
-- Notion Web Clipper
 
 ## Communication and Meetings
 
-- Amazon Chime
-- Loom
 - Signal
-- Tella
+<!-- - Tella -->
 - Toggl Track
 
 ## Creative, Media, and Design
@@ -36,17 +32,16 @@ Many may still have casks, but they were not installed by Homebrew on this Mac.
 - Gifski
 - iMovie
 - Kap
-- OBS
+<!-- - OBS -->
 - Opal
 - ProPresenter
 - SF Symbols beta
 - Shottr
-- Speechify
-- superwhisper
+<!-- - Speechify -->
+<!-- - superwhisper -->
 
 ## Developer Tools
 
-- Anaconda-Navigator
 - Cursor
 - DB Browser for SQLite
 - GitHub Desktop
