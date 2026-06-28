@@ -29,19 +29,6 @@ The bootstrap installs Homebrew if needed, runs `brew bundle`, and applies macOS
 - Screenshot defaults.
 - Stage Manager/window tiling preferences.
 - Menu bar clock and selected Control Center visibility.
-- Optional wallpaper from an image file.
-
-## Wallpaper
-
-This Mac currently uses Apple's aerial wallpaper provider, not a simple image file. macOS stores that in a private wallpaper database/plist, and the CLI surface for re-applying it is not stable across recent macOS versions.
-
-The setup script supports a normal image wallpaper:
-
-```sh
-WALLPAPER_PATH="$HOME/Pictures/wallpaper.jpg" ./scripts/macos-defaults.sh
-```
-
-For the current Apple aerial wallpaper, set it once in System Settings after setup.
 
 ## Manual Follow-Up
 

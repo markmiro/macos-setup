@@ -43,63 +43,63 @@ Many may still have casks, but they were not installed by Homebrew on this Mac.
 ## Developer Tools
 
 - Cursor
-- DB Browser for SQLite
-- GitHub Desktop
-- GitKraken
-- Modern CSV
-- MySQLWorkbench
-- Postgres
+<!-- - DB Browser for SQLite -->
+<!-- - GitHub Desktop -->
+<!-- - GitKraken -->
+<!-- - Modern CSV -->
+<!-- - MySQLWorkbench -->
+<!-- - Postgres -->
 - Postico
 - Postman
 - Postman Agent
-- Sublime Text
-- Visual Studio Code
-- Xcode
+<!-- - Sublime Text -->
+<!-- - Visual Studio Code -->
+<!-- - Xcode -->
 - Zed
 - cmux
 
 ## Documents, Notes, and Writing
 
-- BearWitness
+<!-- - BearWitness -->
 - Obsidian
 - Pages
-- PDF Expert
-- PDFgear
-- Zotero
+<!-- - PDF Expert -->
+<!-- - PDFgear -->
+<!-- - Zotero -->
 
 ## Hardware, Network, and Utilities
 
-- AmorphousDiskMark
-- Angry IP Scanner
+<!-- - AmorphousDiskMark -->
+<!-- - Angry IP Scanner -->
 - BalenaEtcher
-- Betaflight Configurator
+<!-- - Betaflight Configurator -->
 - DaisyDisk
-- Display Menu
-- EasyRes
-- Font Smoothing Adjuster
-- IPFS Desktop
+<!-- - Display Menu -->
+<!-- - EasyRes -->
+<!-- - Font Smoothing Adjuster -->
+<!-- - IPFS Desktop -->
 - LanScan
-- NextDNS
+<!-- - NextDNS -->
 - Raspberry Pi Imager
 - Tailscale
-- Tapo
-- Vivid
+<!-- - Tapo -->
+<!-- - Vivid -->
 
 ## Menu Bar, Windowing, and Productivity
 
 - Flux
-- Hidden Bar
-- iStat Menus
-- KeyCastr
-- MacGPT
-- MacWhisper
-- Magnet
-- Next Meeting
+<!-- - Hidden Bar -->
+<!-- - iStat Menus -->
+<!-- - KeyCastr -->
+<!-- - MacGPT -->
+<!-- - MacWhisper -->
+<!-- - Magnet -->
+<!-- - Next Meeting -->
 - Pandan
 - Raycast
-- Rectangle Pro
-- Soonie
-- Umbra
+<!-- - Rectangle Pro -->
+<!-- - Soonie -->
+<!-- - Umbra -->
 - Up Next
 - Wispr Flow
 
