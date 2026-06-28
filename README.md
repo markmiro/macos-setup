@@ -53,7 +53,7 @@ Some macOS settings are intentionally not scripted because they are tied to acco
 - App Store purchases where no `mas` receipt is installed locally.
 - Browser profiles, extensions, and logged-in app state.
 
-See `manual-apps.txt` for installed applications that were not present in the local Homebrew cask list.
+See `manual-apps.md` for installed applications that were not present in the local Homebrew cask list.
 
 ## Re-Audit This Mac
 
