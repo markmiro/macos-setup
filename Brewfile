@@ -130,6 +130,8 @@ cask "orbstack"
 cask "stats"
 # Minimal GUI for running AI code agents locally
 cask "t3-code"
+# AI-powered voice dictation and text editing
+cask "wispr-flow"
 # # Modern terminal with blocks, workflows, and AI-assisted command line
 # cask "warp"
 # # X11 window system for running X11-based Linux apps on macOS

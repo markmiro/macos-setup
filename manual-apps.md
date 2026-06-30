@@ -101,7 +101,6 @@ Many may still have casks, but they were not installed by Homebrew on this Mac.
 <!-- - Soonie -->
 <!-- - Umbra -->
 - Up Next
-- Wispr Flow
 
 ## Games and Entertainment
 
