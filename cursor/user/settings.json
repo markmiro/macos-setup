@@ -1,0 +1,270 @@
+{
+    "[astro]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[handlebars]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "cSpell.diagnosticLevel": "Warning",
+    "cSpell.enabled": false,
+    "cSpell.logLevel": "Warning",
+    "cSpell.userWords": [
+        "arbitrum",
+        "backoff",
+        "blockies",
+        "browserslist",
+        "bytecode",
+        "Chakra",
+        "CIDs",
+        "commitlint",
+        "craco",
+        "datetime",
+        "deepmerge",
+        "flexbox",
+        "hashdrop",
+        "hdwallet",
+        "headlessui",
+        "ipfs",
+        "keyphrase",
+        "ldquo",
+        "markmiro",
+        "merkle",
+        "Mironyuk",
+        "nextauth",
+        "nocheck",
+        "nomiclabs",
+        "noreferrer",
+        "Numberish",
+        "nums",
+        "pnpm",
+        "rdquo",
+        "rollups",
+        "semibold",
+        "Showable",
+        "Sidechain",
+        "symfoni",
+        "tailwindcss",
+        "todos",
+        "trpc",
+        "typechain",
+        "Vercel",
+        "walletconnect",
+        "Zoomable"
+    ],
+    "editor.accessibilitySupport": "on",
+    "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 13,
+    "editor.fontWeight": "400",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.guides.bracketPairs": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.stickyScroll.enabled": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "on",
+    "eslint.codeActionsOnSave.rules": null,
+    "git.allowForcePush": true,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "dotenv": false,
+        "hoon": false,
+        "javascript": true,
+        "mdx": true,
+        "typescriptreact": true,
+        "yaml": true
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "stash-push:command",
+        "switch:command",
+        "branch-create:command"
+    ],
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorGroup": false,
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "authors": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
+    "gitlens.showWelcomeOnInstall": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.documentSelectors": [
+        "**/*.astro"
+    ],
+    "python.formatting.provider": "none",
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "cva\\(([^)]*)\\)",
+        ]
+    ],
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass",
+        "class:list"
+    ],
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "html",
+        "html": "javascript"
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "terminal.integrated.tabs.location": "left",
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]"
+    ],
+    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+    "typescript.inlayHints.enumMemberValues.enabled": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vscode-edge-devtools.webhint": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.autoDetectColorScheme": true,
+    "window.experimental.commandCenter": true,
+    "workbench.preferredHighContrastColorTheme": "Gruvbox Light Hard",
+    "workbench.preferredHighContrastLightColorTheme": "Default Light+ Experimental",
+    "workbench.productIconTheme": "macos-modern",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "terminal.integrated.env.osx": {
+        "FIG_NEW_SESSION": "1"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "GitHub Dark Dimmed",
+    "git.autofetch": true,
+    "cursor.cpp.disabledLanguages": [
+        "dotenv",
+        "hoon"
+    ],
+    "editor.linkedEditing": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.createEnvironment.trigger": "off",
+    "githubPullRequests.pullBranch": "never",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.views.scm.grouped.views": {
+        "commits": true,
+        "branches": true,
+        "remotes": true,
+        "stashes": false,
+        "tags": true,
+        "worktrees": true,
+        "contributors": true,
+        "repositories": false,
+        "searchAndCompare": false,
+        "launchpad": false
+    },
+    "diffEditor.renderSideBySide": false,
+    "window.restoreWindows": "none",
+    "terminal.integrated.inheritEnv": false,
+    "diffEditor.experimental.showMoves": true,
+    "npm.keybindingsChangedWarningShown": true,
+    "workbench.colorCustomizations": {},
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.saturation": 0.6,
+    "material-icon-theme.opacity": 0.8,
+    "material-icon-theme.activeIconPack": "react",
+    "workbench.preferredLightColorTheme": "A GitHub Light 4 🔵 Blue",
+    "window.commandCenter": true,
+    "[dockercompose]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "[github-actions-workflow]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "workbench.preferredDarkColorTheme": "A GitHub Dark 🩶 Muted",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "cursor.composer.shouldChimeAfterChatFinishes": true,
+    "terminal.integrated.scrollback": 5000,
+    "workbench.statusBar.visible": false
+}

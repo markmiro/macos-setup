@@ -186,7 +186,8 @@ Transfer securely (AirDrop, encrypted drive, or 1Password/SSH agent export). Re-
 
 Re-sync or re-export where the tool supports it; otherwise copy the directory.
 
-- `~/.cursor/` — Cursor settings, extensions, MCP config, projects index
+- `~/.cursor/` — Cursor CLI state, projects index, chat history, and machine-specific auth (not fully captured in repo)
+- Cursor editor settings — tracked in this repo under `cursor/`; run `./scripts/sync-cursor.sh` after install
 - `~/.codex/`
 - `~/.claude/` / `~/.claude.json`
 - `~/.orbstack/` — OrbStack VM/integration state

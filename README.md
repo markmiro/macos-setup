@@ -20,6 +20,12 @@ This repo captures the current Mac setup in a form that can be re-run on a new m
 
 The bootstrap installs Homebrew if needed, runs `brew bundle`, and applies macOS settings from `scripts/macos-defaults.sh`.
 
+5. After installing Cursor, sync editor settings and extensions:
+
+   ```sh
+   ./scripts/sync-cursor.sh
+   ```
+
 ## What Is Automated
 
 - Homebrew taps, formulae, and casks from this machine.
@@ -29,6 +35,7 @@ The bootstrap installs Homebrew if needed, runs `brew bundle`, and applies macOS
 - Screenshot defaults.
 - Stage Manager/window tiling preferences.
 - Menu bar clock and selected Control Center visibility.
+- Cursor user settings, keybindings, MCP config, CLI agent preferences, and extensions from `cursor/`.
 
 ## Manual Follow-Up
 

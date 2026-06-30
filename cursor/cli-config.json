@@ -1,0 +1,131 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(ls)",
+      "Shell(cd)",
+      "Shell(gh)",
+      "WebSearch(GitHub Actions is not permitted to create or approve pull requests GITHUB_TOKEN checkbox)",
+      "Shell(git add)",
+      "Shell(git commit)",
+      "Shell(git push)",
+      "Shell(git -c)",
+      "Shell(pnpm --filter)",
+      "Shell(grep)",
+      "Shell(node)",
+      "Shell(head)"
+    ],
+    "deny": []
+  },
+  "version": 1,
+  "editor": {
+    "vimMode": false
+  },
+  "model": {
+    "modelId": "gemini-2.5-flash",
+    "displayModelId": "gemini-2.5-flash",
+    "displayName": "Gemini 2.5 Flash",
+    "displayNameShort": "Gemini 2.5 Flash",
+    "aliases": [],
+    "maxMode": false
+  },
+  "hasChangedDefaultModel": true,
+  "maxMode": false,
+  "modelParameters": {
+    "composer-2": [
+      {
+        "id": "fast",
+        "value": "true"
+      }
+    ],
+    "gpt-5.4-nano": [
+      {
+        "id": "reasoning",
+        "value": "medium"
+      }
+    ],
+    "claude-sonnet-4-5": [
+      {
+        "id": "thinking",
+        "value": "true"
+      },
+      {
+        "id": "context",
+        "value": "200k"
+      }
+    ],
+    "gpt-5.3-codex-spark": [
+      {
+        "id": "reasoning",
+        "value": "medium"
+      }
+    ],
+    "grok-4-20": [
+      {
+        "id": "thinking",
+        "value": "true"
+      }
+    ],
+    "gpt-5.1-codex-max": [
+      {
+        "id": "reasoning",
+        "value": "medium"
+      },
+      {
+        "id": "fast",
+        "value": "false"
+      }
+    ],
+    "gpt-5.1": [
+      {
+        "id": "reasoning",
+        "value": "medium"
+      }
+    ],
+    "claude-sonnet-4": [
+      {
+        "id": "thinking",
+        "value": "false"
+      },
+      {
+        "id": "context",
+        "value": "200k"
+      }
+    ],
+    "kimi-k2.5": [],
+    "gemini-2.5-flash": [],
+    "gpt-5-mini": [],
+    "gpt-5.2-codex": [
+      {
+        "id": "reasoning",
+        "value": "medium"
+      },
+      {
+        "id": "fast",
+        "value": "false"
+      }
+    ],
+    "default": [],
+    "claude-haiku-4-5": [
+      {
+        "id": "thinking",
+        "value": "true"
+      }
+    ]
+  },
+  "selectedModel": {
+    "modelId": "gemini-2.5-flash",
+    "parameters": []
+  },
+  "network": {
+    "useHttp1ForAgent": false
+  },
+  "approvalMode": "allowlist",
+  "sandbox": {
+    "mode": "disabled",
+    "networkAccess": "user_config_with_defaults"
+  },
+  "attribution": {
+    "attributeCommitsToAgent": true,
+    "attributePRsToAgent": true
+  }
+}
