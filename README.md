@@ -54,6 +54,10 @@ Some macOS settings are intentionally not scripted because they are tied to acco
 - Touch ID, FileVault recovery, Lockdown Mode, privacy permissions, Screen Recording, Accessibility, Full Disk Access.
 - Login Items and background item approvals for GUI apps.
 - App Store purchases where no `mas` receipt is installed locally.
+- Tailscale: install manually from the Apple App Store, then sign in and approve
+  the VPN/network-extension prompts. Do not install Tailscale with Homebrew here:
+  the Homebrew formula is CLI/daemon-only, needs a root launchd service for
+  normal networking, and does not provide the menu bar app experience.
 - Browser profiles, extensions, and logged-in app state.
 
 See `manual-apps.md` for installed applications that were not present in the local Homebrew cask list.

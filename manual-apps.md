@@ -81,9 +81,17 @@ Many may still have casks, but they were not installed by Homebrew on this Mac.
 - LanScan
 <!-- - NextDNS -->
 - Raspberry Pi Imager
-- Tailscale
+- Tailscale — install manually from the Apple App Store, not Homebrew
 <!-- - Tapo -->
 <!-- - Vivid -->
+
+Tailscale is intentionally manual. The Apple App Store app provides the menu bar
+app, uses macOS' normal VPN/network-extension approval flow, and receives app
+updates through Apple's system. The Homebrew formula only installs the
+`tailscale`/`tailscaled` command-line tools; running the daemon for normal
+networking requires a root launchd service and still does not create the menu
+bar app. Keeping this out of Homebrew makes fresh setup match the actual macOS
+UX: install the app, approve the system prompts, and sign in.
 
 ## Menu Bar, Windowing, and Productivity
 
