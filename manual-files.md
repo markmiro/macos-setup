@@ -129,6 +129,8 @@ Workspace file:
 
 ### Git
 
+Tracked in this repo under `dotfiles/`; applied by `./scripts/sync-dotfiles.sh` (also run from `bootstrap.sh`):
+
 - `~/.gitconfig` — name, email, SSH commit signing via 1Password, aliases, LFS
 - `~/.gitignore_global` — DS_Store ignores
 

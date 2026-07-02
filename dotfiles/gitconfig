@@ -1,0 +1,38 @@
+[user]
+	email = contact@markmiro.com
+	name = Mark Miro
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICeGeCvgTra1RoK5q7P/Jg1wzsVaYx/ALriwhzGRRCm4
+[commit]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[init]
+	defaultBranch = main
+[core]
+	editor = cursor -n --wait
+	excludesfile = ~/.gitignore_global
+[safe]
+	directory = *
+[alias]
+	cob = checkout -b
+	co = checkout
+	cm = commit -m
+	ca = commit -a
+	st = status
+	pl = pull
+	ps = push
+[push]
+	autoSetupRemote = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[credential "https://github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/opt/homebrew/bin/gh auth git-credential

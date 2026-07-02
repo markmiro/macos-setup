@@ -32,4 +32,7 @@ fi
 echo "Applying macOS defaults..."
 "$SCRIPT_DIR/macos-defaults.sh"
 
+echo "Syncing git dotfiles..."
+"$SCRIPT_DIR/sync-dotfiles.sh"
+
 echo "Done. Some settings require logout or restart to fully apply."

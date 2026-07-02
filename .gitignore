@@ -1,0 +1,26 @@
+# Local audit snapshots (may contain machine-specific paths and prefs)
+audit/
+
+# Secrets and credentials — never commit these
+.env
+.env.*
+*.pem
+*.key
+id_ed25519
+id_rsa
+id_ecdsa
+*.p12
+*.pfx
+credentials.json
+secrets.*
+
+# Backup files created by sync scripts
+*.bak.*
+
+# macOS
+.DS_Store
+
+# Editor and tool state
+.cursor/
+.idea/
+.vscode/
