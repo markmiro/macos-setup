@@ -75,3 +75,17 @@ Run this when you make meaningful setup changes and want a snapshot:
 ```
 
 It writes files under `audit/` with local preference and package information. That directory is gitignored.
+
+## Morning Remote-Work Check
+
+Run this before leaving the Mac unattended:
+
+```sh
+remote-ready
+```
+
+It validates GitHub, Expo/EAS, Codex, Tailscale, and OpenRouter access; keeps
+the Mac awake; starts Ollama and the Gift Cardy Expo/Metro server; and checks
+iPhone and Android development-device pairing. See
+[`docs/remote-work-readiness.md`](docs/remote-work-readiness.md) for the exact
+checks, phone connection model, configuration, and stop command.
